@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+    <head>
+        <!-- head start -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Save the Children</title>
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/build.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Boxicons CDN Link -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!-- head end -->
+    </head>
+    <body>
+        <!-- header start -->
+        <header>
+            <!-- top-bar.html start -->
+            <nav>
+                <div class="navbar">
+                    <i class='bx bx-menu'></i>
+                    <div class="logo">
+                        <img src="./assets/images/logolc.png" alt="">
+                        <img src="./assets/images/logosc.png" alt="">
+                    </div>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <div class="sidebar-logo-box">
+                                <img src="./assets/images/logolc.png" alt="">
+                                <img src="./assets/images/logosc.png" alt="">
+                            </div>
+                            <i class='bx bx-x' ></i>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="#">Giới thiệu</a>
+                                <i class='bx bxs-chevron-down arrow introduce-arrow' id="introduce-arrow"></i>
+                                <ul class="introduce-sub-menu sub-menu">
+                                    <li><a href="#">Thông tin BQLDA tỉnh Lào Cai</a></li>
+                                    <li class="more">
+                                        <span>
+                                            <a href="#" class="more-li">Chương trình Phát triển Cộng đồng lấy Trẻ em làm Trọng tâm</a>
+                                            <i class='bx bxs-chevron-right arrow more-arrow' id="more-arrow"></i>
+                                        </span>
+                                        <ul class="more-sub-menu sub-menu">
+                                        <li><a href="#">Sức khỏe - Phát triển thanh thiếu niên</a></li>
+                                        <li><a href="#">Sức khỏe - Vệ sinh và Dinh dưỡng học đường</a></li>
+                                        <li><a href="#">Giáo dục</a></li>
+                                        <li><a href="#">Bảo vệ trẻ em</a></li>
+                                        <li><a href="#">Phân luồng - Hướng nghiệp</a></li>
+                                        <li><a href="#">Sự tham gia của trẻ và Giới</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Tổ chức Cứu trợ Trẻ em</a></li>
+                                    <li><a href="#">Hợp phần Phân luồng - Hướng nghiệp</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Thế giới nghề nghiệp quanh ta</a>
+                                <i class='bx bxs-chevron-down arrow job-arrow' id="job-arrow"></i>
+                                <ul class="job-sub-menu sub-menu">
+                                    <li><a href="#">Ngành nghề truyền thống địa phương</a></li>
+                                    <li><a href="#">Ngành nghề phổ biến</a></li>
+                                    <li><a href="#">Ứng dụng tìm hiểu nghề nghiệp BecaXR</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Hướng nghiệp</a>
+                                <i class='bx bxs-chevron-down arrow guide-arrow' id="guide-arrow"></i>
+                                <ul class="guide-sub-menu sub-menu">
+                                    <li><a href="#">Khám phá bản thân</a></li>
+                                    <li><a href="#">Đánh giá năng lực bản thân</a></li>
+                                    <li><a href="#">Phát triển kỹ năng</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Thông tin cơ sở giáo dục nghề nghiệp</a></li>
+                            <li>
+                                <a href="#">Góc giáo viên</a>
+                                <i class='bx bxs-chevron-down arrow teacher-arrow' id="teacher-arrow"></i>
+                                <ul class="teacher-sub-menu sub-menu">
+                                <li><a href="#">Tài liệu tập huấn giáo viên</a></li>
+                                <li><a href="#">Văn bản Phân luồng - Hướng nghiệp</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Tuyển sinh</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-box">
+                        <i class="bx bx-search"></i>
+                        <div class="input-box">
+                        <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- top-bar.html end -->
+            <script src="./assets/js/main.js"></script>
+            <!-- header.html start -->
+            <div class="header position-relative">
+                <div class="header-title h-100 d-flex align-items-center">
+                    <h1 class="text-center text-white">PHÂN LUỒNG - HƯỚNG NGHIỆP <br> DỰ ÁN PHÁT TRIỂN CỘNG ĐỒNG LẤY TRẺ EM LÀM TRỌNG TÂM</h1>
+                </div>
+                <div class="social-media h-100 d-flex flex-column justify-content-center position-absolute">
+                    <!-- <img src="./assets/images/fb.png" alt=""> -->
+                    <a href="https://www.facebook.com/savechildrenVN" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>           
+                    <!-- <img src="./assets/images/twitter.png" alt=""> -->
+                    <a href="https://www.youtube.com/channel/UC-qXN8aW5f9qupk00dQ1x8w" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <!-- <img src="./assets/images/youtube.png" alt=""> -->
+                    <a href="https://www.instagram.com/savethechildren_vn/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- header.html end -->
+        </header>
+        <!-- header end -->
+
+        <!-- body start -->
+        <div class="main-container">
+            <h2>TRẮC NGHIỆM SỞ THÍCH THEO LÝ THUYẾT MẬT MÃ HOLLAND</h2>
+            <p>Lý thuyết mật mã Holland (Holland codes) thuộc nhóm Lý thuyết đặc tính cá nhân và đặc điểm nghề, được phát triển bởi nhà tâm lý học John Holland (1919-2008). Ông được biết đến rộng rãi nhất qua nghiên cứu Lý thuyết lựa chọn nghề nghiệp. Có thể nói, lý thuyết mật mã Holland là lý thuyết thực tế nhất, có nền tảng nghiên cứu nhất và được các chuyên gia tư vấn hướng nghiệp trong và ngoài nước Mỹ sử dụng nhiều nhất.</p>
+            <div class="holland-hexagon">
+                <div class="holland-hexagon-box">
+                    <div class="holland-hexagon-box-top">
+                        <div class="holland-hexagon-item hexagon-item-1">
+                            <img src="./assets/images/purple.png" alt="">
+                        </div>
+                        <div class="holland-hexagon-item hexagon-item-2">
+                            <img src="./assets/images/grey.png" alt="">
+                        </div>
+                    </div>
+                    <div class="holland-hexagon-box-center">
+                        <div class="holland-hexagon-item hexagon-item-3">
+                            <img src="./assets/images/red.png" alt="">
+                        </div>
+                        <div class="holland-hexagon-item hexagon-item-4">
+                            <img src="./assets/images/blue.png" alt="">
+                        </div>
+                    </div>
+                    <div class="holland-hexagon-box-bottom">
+                        <div class="holland-hexagon-item hexagon-item-5">
+                            <img src="./assets/images/green.png" alt="">
+                        </div>
+                        <div class="holland-hexagon-item hexagon-item-6">
+                            <img src="./assets/images/yellow.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="source"> <b>Hình 1.</b> Sáu nhóm tính cách theo lí thuyết mật mã Holland</p>
+            </div>
+            <p>John Holland đã sắp xếp sáu loại tính cách này vào một lục giác (nhìn biểu đồ) dựa trên sở thích làm việc với những tác nhân kích thích khác nhau gồm: con người, dữ liệu, đồ vật và ý tưởng. 
+            <br><br>
+            Trắc nghiệm tính cách nghề nghiệp Holland chỉ ra rằng con người với những kiểu tính cách khác nhau thích làm việc với những tác nhân kích thích khác nhau và khoảng cách giữa tính cách trong công việc cho thấy mức độ khác nhau trong sở thích của họ
+            </p>
+            <div class="go-to-test d-flex justify-content-center">
+                <button>Bắt đầu</button>
+            </div>
+            <p>
+                <b>Lưu ý:</b> 
+                <br>
+                - Đánh dấu X vào ô vuông trước mỗi câu mà bạn thấy phù hợp với mình. Đừng suy nghĩ quá nhiều khi lựa chọn câu trả lời. <br>
+                - Thời gian hoàn thành: 20 phút. <br>
+                - Mỗi ô được đánh dấu sẽ tính là 1 điểm, không phải điểm cao là làm giỏi mà phải lựa chọn theo đúng suy nghĩ bản thân. <br>
+            </p>
+            <div class="test-container">
+                <div class="test-group">
+                    <div class="test-box" id="test-box-1">
+                        <label for="1" class="btn">
+                            <div class="test-box-left">
+                                <b>1</b> <span class="ki-thuat"> Tôi tự thấy mình là người khá về các môn thể thao</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="1" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="2" class="btn">
+                            <div class="test-box-left">
+                                <b>2</b> <span class="ki-thuat"> Tôi là người yêu thích thiên nhiên</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="2" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="3" class="btn">
+                            <div class="test-box-left">
+                                <b>3</b> <span class="ki-thuat"> Tôi là người hay tò mò về thế giới xung quanh mình (thiên nhiên, không gian, những sinh vật sống)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="3" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="4" class="btn">
+                            <div class="test-box-left">
+                                <b>4</b> <span class="ki-thuat"> Tôi là người độc lập</span>
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="4" class="badgebox"><span class="badge">&check;</span>
+                            </div> 
+                        </label>  
+                        <label for="5" class="btn">
+                            <div class="test-box-left">
+                                <b>5</b> <span class="ki-thuat"> Tôi thích sửa chữa đồ vật, vật dụng xung quanh tôi</span>
+                            </div> 
+                            <div class="test-box-right">
+                                <input type="checkbox" id="5" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="6" class="btn">
+                            <div class="test-box-left">
+                                <b>6</b> <span class="ki-thuat"> Tôi thích làm việc sử dụng tay chân (làm vườn, sửa chữa nhà cửa)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="6" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="7" class="btn">
+                            <div class="test-box-left">
+                                <b>7</b> <span class="ki-thuat"> Tôi thích tập thể dục</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="7" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="8" class="btn">
+                            <div class="test-box-left">
+                                <b>8</b> <span class="ki-thuat"> Tôi thích dành dụm tiền</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="8" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="9" class="btn">
+                            <div class="test-box-left">
+                                <b>9</b> <span class="ki-thuat"> Tôi thích làm việc cho đến khi công việc hoàn thành (không thích bỏ dở việc)</span>
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="9" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="10" class="btn">
+                            <div class="test-box-left">
+                                <b>10</b> <span class="ki-thuat"> Tôi thích làm việc một mình</span>
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="10" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                    <div class="test-box" id="test-box-2">
+                        <label for="11" class="btn">
+                            <div class="test-box-left">
+                                <b>11</b> <span class="nghien-cuu"> Tôi là người rất hay để ý tới chi tiết và cẩn thận</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="11" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="12" class="btn">
+                            <div class="test-box-left">
+                                <b>12</b> <span class="nghien-cuu"> Tôi tò mò về mọi thứ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="12" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="13" class="btn">
+                            <div class="test-box-left">
+                                <b>13</b> <span class="nghien-cuu"> Tôi có thể tính những bài toán phức tạp</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="13" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="14" class="btn">
+                            <div class="test-box-left">
+                                <b>14</b> <span class="nghien-cuu"> Tôi thích giải các bài tập toán</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="14" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="15" class="btn">
+                            <div class="test-box-left">
+                                <b>15</b> <span class="nghien-cuu"> Tôi thích sử dụng máy tính</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="15" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="16" class="btn">
+                            <div class="test-box-left">
+                                <b>16</b> <span class="nghien-cuu"> Tôi rất thích đọc sách</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="16" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="17" class="btn">
+                            <div class="test-box-left">
+                                <b>17</b> <span class="nghien-cuu"> Tôi thích sưu tập (đá, tem, tiền đồng)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="17" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="18" class="btn">
+                            <div class="test-box-left">
+                                <b>18</b> <span class="nghien-cuu"> Tôi thích trò chơi ô chữ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="18" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="19" class="btn">
+                            <div class="test-box-left">
+                                <b>19</b> <span class="nghien-cuu"> Tôi thích học các môn khoa học</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="19" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="20" class="btn">
+                            <div class="test-box-left">
+                                <b>20</b> <span class="nghien-cuu"> Tôi thích những thách thức</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="20" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                    <div class="test-box" id="test-box-3">
+                        <label for="21" class="btn">
+                            <div class="test-box-left">
+                                <b>21</b> <span class="nghe-thuat"> Tôi rất sáng tạo</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="21" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="22" class="btn">
+                            <div class="test-box-left">
+                                <b>22</b> <span class="nghe-thuat"> Tôi thích vẽ, tô màu và sơn</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="22" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="23" class="btn">
+                            <div class="test-box-left">
+                                <b>23</b> <span class="nghe-thuat"> Tôi có thể chơi một nhạc cụ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="23" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="24" class="btn">
+                            <div class="test-box-left">
+                                <b>24</b> <span class="nghe-thuat"> Tôi thích tự thiết kế quần áo cho mình hoặc mặc những thời trang lạ và thú vị</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="24" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="25" class="btn">
+                            <div class="test-box-left">
+                                <b>25</b> <span class="nghe-thuat"> Tôi thích đọc truyện viễn tưởng, kịch và thơ ca</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="25" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="26" class="btn">
+                            <div class="test-box-left">
+                                <b>26</b> <span class="nghe-thuat"> Tôi thích mĩ thuật và thủ công</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="26" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="27" class="btn">
+                            <div class="test-box-left">
+                                <b>27</b> <span class="nghe-thuat"> Tôi xem rất nhiều phim</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="27" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="28" class="btn">
+                            <div class="test-box-left">
+                                <b>28</b> <span class="nghe-thuat"> Tôi thích chụp ảnh (chim, người, cảnh đẹp)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="28" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="29" class="btn">
+                            <div class="test-box-left">
+                                <b>29</b> <span class="nghe-thuat"> Tôi thích học một ngoại ngữ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="29" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="30" class="btn">
+                            <div class="test-box-left">
+                                <b>30</b> <span class="nghe-thuat"> Tôi thích hát, đóng kịch và khiêu vũ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="30" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                    <div class="test-box" id="test-box-4">
+                        <label for="31" class="btn">
+                            <div class="test-box-left">
+                                <b>31</b> <span class="xa-hoi"> Tôi rất thân thiện</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="31" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="32" class="btn">
+                            <div class="test-box-left">
+                                <b>32</b> <span class="xa-hoi"> Tôi thích chỉ dẫn hoặc dạy người khác</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="32" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="33" class="btn">
+                            <div class="test-box-left">
+                                <b>33</b> <span class="xa-hoi"> Tôi thích nói chuyện trước đám đông</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="33" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="34" class="btn">
+                            <div class="test-box-left">
+                                <b>34</b> <span class="xa-hoi"> Tôi làm việc rất tốt trong nhóm</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="34" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="35" class="btn">
+                            <div class="test-box-left">
+                                <b>35</b> <span class="xa-hoi"> Tôi thích điều hành các cuộc thảo luận</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="35" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="36" class="btn">
+                            <div class="test-box-left">
+                                <b>36</b> <span class="xa-hoi"> Tôi thích giúp đỡ những người gặp khó khăn</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="36" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="37" class="btn">
+                            <div class="test-box-left">
+                                <b>37</b> <span class="xa-hoi"> Tôi chơi các môn thể thao có tính đồng đội</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="37" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="38" class="btn">
+                            <div class="test-box-left">
+                                <b>38</b> <span class="xa-hoi"> Tôi thích đi dự tiệc</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="38" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="39" class="btn">
+                            <div class="test-box-left">
+                                <b>39</b> <span class="xa-hoi"> Tôi thích làm quen với bạn mới</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="39" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="40" class="btn">
+                            <div class="test-box-left">
+                                <b>40</b> <span class="xa-hoi"> Tôi thích làm việc với các nhóm hoạt động xã hội tại trường học, nhà thờ, chùa, phường, xóm, hay cộng đồng</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="40" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                    <div class="test-box" id="test-box-5">
+                        <label for="41" class="btn">
+                            <div class="test-box-left">
+                                <b>41</b> <span class="xa-hoi"> Tôi thích học hỏi về tài chính (tiền bạc)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="41" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="42" class="btn">
+                            <div class="test-box-left">
+                                <b>42</b> <span class="xa-hoi"> Tôi thích bán các sản phẩm (kẹo, bút viết v.v...)</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="42" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="43" class="btn">
+                            <div class="test-box-left">
+                                <b>43</b> <span class="xa-hoi"> Tôi nghĩ mình thuộc dạng nổi tiếng ở trường</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="43" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="44" class="btn">
+                            <div class="test-box-left">
+                                <b>44</b> <span class="xa-hoi"> Tôi thích lãnh đạo nhóm và các cuộc thảo luận</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="44" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="45" class="btn">
+                            <div class="test-box-left">
+                                <b>45</b> <span class="quan-li"> Tôi thích được bầu vào các vị trí quan trọng trong nhóm hoặc câu lạc bộ trong và ngoài nhà trường</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="45" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="46" class="btn">
+                            <div class="test-box-left">
+                                <b>46</b> <span class="quan-li"> Tôi thích có quyền và thích ở vị trí lãnh đạo</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="46" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="47" class="btn">
+                            <div class="test-box-left">
+                                <b>47</b> <span class="quan-li"> Tôi muốn sở hữu một doanh nghiệp nhỏ</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="47" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="48" class="btn">
+                            <div class="test-box-left">
+                                <b>48</b> <span class="quan-li"> Tôi thích tiết kiệm tiền</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="48" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="49" class="btn">
+                            <div class="test-box-left">
+                                <b>49</b> <span class="quan-li"> Tôi thích làm việc cho tới khi công việc hoàn tất</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="49" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="50" class="btn">
+                            <div class="test-box-left">
+                                <b>50</b> <span class="quan-li"> Tôi thích mạo hiểm và tham gia các cuộc phiêu lưu mới</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="50" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                    <div class="test-box" id="test-box-6">
+                        <label for="51" class="btn">
+                            <div class="test-box-left">
+                                <b>51</b><span class="nghiep-vu"> Tôi thích gọn gàng và ngăn nắp</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="51" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>      
+                        <label for="52" class="btn">
+                            <div class="test-box-left">
+                                <b>52</b><span class="nghiep-vu"> Tôi thích phòng của tôi thường xuyên gọn gàng và ngăn nắp</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="52" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="53" class="btn">
+                            <div class="test-box-left">
+                                <b>53</b> <span class="nghiep-vu"> Tôi thích sưu tầm các bài báo về các sự kiện nổi tiếng</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="53" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="54" class="btn">
+                            <div class="test-box-left">
+                                <b>54</b> <span class="nghiep-vu"> Tôi thích lập những danh sách các việc cần làm</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="54" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="55" class="btn">
+                            <div class="test-box-left">
+                                <b>55</b> <span class="nghiep-vu"> Tôi thích sử dụng máy tính</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="55" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="56" class="btn">
+                            <div class="test-box-left">
+                                <b>56</b> <span class="nghiep-vu"> Tôi rất thực tế và cân nhắc mọi chi phí trước khi mua một thứ gì đó</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="56" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="57" class="btn">
+                            <div class="test-box-left">
+                                <b>57</b> <span class="nghiep-vu"> Tôi thích đánh máy bài tập của trường lớp hơn là viết tay</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="57" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="58" class="btn">
+                            <div class="test-box-left">
+                                <b>58</b> <span class="nghiep-vu"> Tôi thích đảm nhận công việc thư ký trong một câu lạc bộ hay nhóm</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="58" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="59" class="btn">
+                            <div class="test-box-left">
+                                <span class="nghiep-vu"> <b>59</b> Khi làm toán, tôi hay kiểm tra lại bài làm nhiều lần</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="59" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label>  
+                        <label for="60" class="btn">
+                            <div class="test-box-left">
+                                <span class="nghiep-vu"> <b>60</b> Tôi thích viết thư</span> 
+                            </div>
+                            <div class="test-box-right">
+                                <input type="checkbox" id="60" class="badgebox"><span class="badge">&check;</span>
+                            </div>
+                        </label> 
+                    </div>
+                </div>
+                <div class="move-btn">
+                    <button class="prev-btn">
+                        <span><i class="fa-solid fa-arrow-left"></i>Quay lại</span>
+                    </button>
+                    <button class="result-btn">
+                        <span>Xem kết quả</span>
+                    </button>
+                    <button class="next-btn">
+                        <span>Tiếp theo<i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div> 
+            </div>
+            <div class="result-container">
+                <h2>Nhóm sở thích phù hợp với bạn là: <span>Nhóm kỹ thuật, Nhóm xã hội</span></h2>
+                <div class="result-box">
+                    <div class="result-item">
+                        <h3>Nhóm kỹ thuật</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm kĩ thuật là nhóm người có tính thực tế
+                            </div>
+                            <div class="result-description__content">Những ai có khả năng như một vận động viên thể thao hoặc có khả năng như một thợ máy, thích làm với những vật cụ thể, máy móc, dụng cụ, cây cối, con vật, hoặc các hoạt động ngoài trời</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Kĩ sư ngành tự động hóa</div>
+                                <div class="result-group-item">Vận hành máy</div>
+                                <div class="result-group-item">Kĩ sư ô tô</div>
+                                <div class="result-group-item">Lắp đặt điện</div>
+                                <div class="result-group-item">Lập trình viên</div>
+                                <div class="result-group-item">Kĩ sư thiết kế cảnh quang đô thị</div>
+                                <div class="result-group-item">Cơ khí ứng dụng</div>
+                                <div class="result-group-item">Kĩ sư phần mềm</div>
+                                <div class="result-group-item">Kĩ thuật viên phòng thí nghiệm</div>
+                                <div class="result-group-item">Kĩ sư chế tạo máy</div>
+                                <div class="result-group-item">Bảo hành, sửa chữa điện- điện tử</div>
+                                <div class="result-group-item">Kĩ sư công nghệ thông tin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Nhóm nghiên cứu</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghiên cứu là những người thích tìm tòi, khám phá, điều tra
+                            </div>
+                            <div class="result-description__content">Những ai thích quan sát, tìm tòi, khám phá, học hỏi, điều tra, phân tích, đánh giá hoặc giải quyết vấn đề.</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Kĩ thuật viên y tế</div>
+                                <div class="result-group-item">Chuyên viên nghiên cứu thị trường</div>
+                                <div class="result-group-item">Kĩ thuật viên phòng thí nghiệm</div>
+                                <div class="result-group-item">Nhà sinh vật học</div>
+                                <div class="result-group-item">Nha sĩ/Dược sĩ</div>
+                                <div class="result-group-item">Kĩ sư phần mềm</div>
+                                <div class="result-group-item">Nhà khảo cổ học</div>
+                                <div class="result-group-item">Giảng viên đại học</div>
+                                <div class="result-group-item">tiến sĩ các ngành KHTN và KHXH</div>
+                                <div class="result-group-item">Bác sĩ</div>
+                                <div class="result-group-item">Nhà khoa học</div>
+                                <div class="result-group-item">Nhà nghiên cứu địa chất</div>
+                                <div class="result-group-item">Nghệ sĩ biểu diễn nhạc cụ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Nhóm nghệ thuật</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghệ thuật là những người có sở thích thẩm mỹ, sáng tạo
+                            </div>
+                            <div class="result-description__content">Những ai có khả năng nghệ thuật, sáng tác, trực giác và thích làm việc trong các tình huống không có kế hoạch trước như dùng trí tưởng tượng và sáng tạo.</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Thiết kế đồ họa</div>
+                                <div class="result-group-item">Phòng viên</div>
+                                <div class="result-group-item">Ca sĩ</div>
+                                <div class="result-group-item">Nhiếp ảnh gia</div>
+                                <div class="result-group-item">Thợ thủ công mĩ nghệ</div>
+                                <div class="result-group-item">Bình luận viên</div>
+                                <div class="result-group-item">Nhà báo</div>
+                                <div class="result-group-item">Người mẫu</div>
+                                <div class="result-group-item">MC truyền hình</div>
+                                <div class="result-group-item">Kiến trúc sư</div>
+                                <div class="result-group-item">Họa sĩ</div>
+                                <div class="result-group-item">Nhạc sĩ</div>
+                                <div class="result-group-item">Giáo viên dạy kịch</div>
+                                <div class="result-group-item">Nhà văn</div>
+                                <div class="result-group-item">Thiết kế thời trang</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Nhóm xã hội</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm xã hội là những người thích tham gia hoạt động xã hội
+                            </div>
+                            <div class="result-description__content">Những ai thích làm việc cung cấp hoặc làm sáng tỏ thông tin, thích giúp đỡ, huấn luyện, chữa trị hoặc chăm sóc sức khỏe cho người khác; có khả năng về ngôn ngữ.</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Nhà hoạt động xã hội</div>
+                                <div class="result-group-item">Y tá cộng đồng</div>
+                                <div class="result-group-item">Dược tá</div>
+                                <div class="result-group-item">Nhân viên các công ty du lịch</div>
+                                <div class="result-group-item">Hướng dẫn viên du lịch</div>
+                                <div class="result-group-item">Huấn luyện viên</div>
+                                <div class="result-group-item">Tư vấn hướng nghiệp</div>
+                                <div class="result-group-item">Dịch vụ khách hàng</div>
+                                <div class="result-group-item">Giáo viên các cấp</div>
+                                <div class="result-group-item">Bác sĩ</div>
+                                <div class="result-group-item">Luật sĩ</div>
+                                <div class="result-group-item">Chuyên gia tư vấn bất động sản</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Nhóm quản lý</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm quản lý là những người thích kinh doanh, lãnh đạo, thuyết phục người khác 
+                            </div>
+                            <div class="result-description__content">Những ai thích làm việc với những người khác, có khả năng tác động, thuyết phục, thể hiện, lãnh đạo hoặc quản lí các mục tiêu của tổ chức, các lợi ích kinh tế.</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Sĩ quan công an</div>
+                                <div class="result-group-item">Quản trị kinh doanh</div>
+                                <div class="result-group-item">Quản trị mạng</div>
+                                <div class="result-group-item">Chủ doanh nghiệp</div>
+                                <div class="result-group-item">Chủ đại lý kinh doanh</div>
+                                <div class="result-group-item">Chuyên viên quan hệ công chúng</div>
+                                <div class="result-group-item">Quản lí khách sạn</div>
+                                <div class="result-group-item">Giám đốc ngân hàng</div>
+                                <div class="result-group-item">Quản lí giáo dục các cấp</div>
+                                <div class="result-group-item">Kế toán trưởng</div>
+                                <div class="result-group-item">Chánh án</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Nhóm nghiệp vụ</h3>
+                        <div class="result-description">
+                            <div class="result-description__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghiệp vụ là những người thích nguyên tắc, làm việc với con số, báo cáo hoặc làm việc với với máy móc được sắp đặt trật tự 
+                            </div>
+                            <div class="result-description__content">Những ai thích làm việc với dữ liệu, con số; có khả năng làm việc văn phòng, thống kê; thực hiện các công việc đòi hỏi chi tiết, tỉ mỉ, cẩn thận hoặc làm theo hướng dẫn của người khác.</div>
+                        </div>
+                        <div class="result-group">
+                            <div class="result-group__title">
+                                <i class="fa-regular fa-circle-check"></i>Nhóm nghề nghiệp phù hợp với bạn
+                            </div>
+                            <div class="result-group-items">
+                                <div class="result-group-item">Thanh tra các ban ngành</div>
+                                <div class="result-group-item">Thủ thư</div>
+                                <div class="result-group-item">Thư ký</div>
+                                <div class="result-group-item">Nhân viên lưu trữ</div>
+                                <div class="result-group-item">Chuyên viên thuế</div>
+                                <div class="result-group-item">Kế toán viên</div>
+                                <div class="result-group-item">Tiếp tân</div>
+                                <div class="result-group-item">Nhân viên ngân hàng</div>
+                                <div class="result-group-item">Tiếp tân</div>
+                                <div class="result-group-item">Kiểm soát viên</div>
+                                <div class="result-group-item">Nghiên cứu viên</div>
+                                <div class="result-group-item">Công an hình sự</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- body end -->
+        
+        <!-- footer.html start -->
+        <footer>
+            <div class="about-us d-flex">
+                <div class="about-us-col">
+                    <div class="col-title">Sở Giáo dục và Đào tạo tỉnh Lào Cai</div>
+                    <div class="col-content">
+                        Địa chỉ: Khối IV – Đường 30/4 – Phường Bắc Lệnh – Thành phố Lào Cai <br>
+                        ĐT: 0214.3840.120 - Fax: 0214.3842.425 <br><br>
+
+                        <p class="col-title" style="margin-bottom: 10px">Tổ chức Cứu trợ trẻ em - Văn phòng Lào Cai</p>
+                        Địa chỉ: 275 Lê Thanh - Phường Bắc Cường – Thành phố Lào Cai <br>
+                        Điện thoại: 0214.2224.002 <br>
+                    </div>
+                </div>
+                <div class="about-us-col">
+                    <div class="col-title">Liên hệ với chúng tôi</div>   
+                    <div class="col-content">
+                        <p>
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            bqldasc@laocai.edu.vn
+                        </p>
+                        <p>
+                            <i class="fa-duotone fa-phone"></i>
+                            0214.3840.120
+                        </p>
+                        <p>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            Khối IV - Đường 30/4 – Phường Bắc Lệnh – Thành phố Lào Cai
+                        </p>
+                    </div> 
+                </div>
+                <div class="about-us-col">
+                    <div class="col-title">Thống kê truy cập</div>    
+                    <div class="col-content">
+                        <p>Tổng truy cập: <b>1,000,000</b></p>
+                        <p>Hôm nay: <b>10</b></p>
+                        <p>Số lượt trong tuần: <b>1,000</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <div class="bottom-bar-content d-flex">
+                    <p>© 2022 Save the Children International</p>
+                    <p>Giới thiệu&nbsp;	&nbsp; | &nbsp;&nbsp;Liên hệ </p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer.html end -->  
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>   
+        <script src="https://unpkg.com/bootstrap-checkbox@2.0.0/dist/js/bootstrap-checkbox.js" defer></script>
+    </body>
+</html>
