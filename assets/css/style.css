@@ -420,6 +420,7 @@ nav .navbar .links li:hover > i,
   padding: 10px 30px;
   color: #ffffff;
   border-radius: 50px;
+  transition: all 0.475s;
 }
 .badgebox
 {
@@ -592,12 +593,65 @@ nav .navbar .links li:hover > i,
   font-weight: bold;
 }
 
-/* .hexagon-item-1 {
-  z-index: 10;
-} */
-/* .holland-hexagon-box .hexagon-item-1:hover img{
-  content: url('../images/purple-m.png');
-} */
+.result-details {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.result-details-btn {
+  padding: 8px 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 800;
+  background: #F1F1FB;
+  background-size: 400%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #DF6258;
+}
+.result-details-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: 1px solid #DF6258;
+  background: rgb(245, 163, 56, 0.9);
+  color: #ffffff;
+  transition: all 0.475s;
+}
+.result-details-btn:hover::before {
+  transform: scaleX(1);
+}
+.result-details-btn:hover .button-content {
+  color: #ffffff;
+}
+.button-content {
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  color: #DA291C;
+  transition: all 0.475s;
+}
+.go-to-test button:hover {
+  background: #DF6258;
+}
+.total-result {
+  margin-top: 50px;
+}
+.total-result h4 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #DA291C;
+}
+.total-result th, .total-result tr {
+  text-align: center;
+}
 
 /* about-us */
 footer {
@@ -955,6 +1009,13 @@ footer {
   .result-description, .result-group {
     line-height: 21px;
   }
+  .button-content {
+    font-size: 14px;
+  }
+  .result-details-btn {
+    padding: 5px 35px;
+    height: 38px;
+  }
   /* 820 footer start */
   .about-us {
     flex-wrap: wrap;
@@ -1103,6 +1164,10 @@ footer {
   .test-box-left span {
     width: 85%;
   }
+  .result-details-btn {
+    padding: 5px 30px;
+    height: 35px;
+  } 
   /* footer 640 start */
   .col-content {
     padding-bottom: 20px;
@@ -1243,6 +1308,20 @@ footer {
     padding: 5px 8px;
     font-size: 11px;
   }  
+  .button-content {
+    font-size: 11px;
+  }
+  .result-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .result-details-btn {
+    padding: 5px 26px;
+    height: 30px;
+  }
+  .total-result h4 {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width:420px) {
   /* header 420 start */
@@ -1283,7 +1362,12 @@ footer {
     margin-bottom: 0px;
   } 
   /* header 420 end */
-
+  .total-result h4 {
+    font-size: 16px;
+  }
+  .total-result th, .total-result tr, .total-result td {
+    font-size: 14px;
+  }
   /* footer 420 start */
   .col-title {
     font-size: 14px;
